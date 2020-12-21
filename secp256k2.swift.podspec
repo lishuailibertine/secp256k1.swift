@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'secp256k1.swift'
-  s.version          = '0.1.4'
+  s.name             = 'secp256k2.swift'
+  s.version          = '0.1.5'
   s.summary          = 'secp256k1 bindings for swift. Cocoapods, Carthage and SPM support. Linux support.'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ Bitcoin, Ethereum and many other Cryptocurrency Signature generation and verific
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.module_name = 'secp256k1'
+  s.module_name = 'secp256k2'
 
   s.pod_target_xcconfig = {
     'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}',
